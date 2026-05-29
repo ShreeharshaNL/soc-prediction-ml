@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+node_modules/
+dist/
+.vite/
+backend/models/*.joblib
+backend/reports/*.png
+backend/reports/*.json
+backend/data/*.csv
+backend/data/*.zip
+!backend/data/.gitkeep
+!backend/models/.gitkeep
+!backend/reports/.gitkeep
