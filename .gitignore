@@ -15,3 +15,5 @@ backend/data/*.zip
 !backend/data/.gitkeep
 !backend/models/.gitkeep
 !backend/reports/.gitkeep
+
+.vercel

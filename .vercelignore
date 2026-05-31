@@ -1,0 +1,12 @@
+.git
+.vercel
+backend
+render.yaml
+frontend/node_modules
+frontend/dist
+frontend/.vite
+frontend/.env
+**/__pycache__
+**/*.pyc
+**/.venv
+**/venv
