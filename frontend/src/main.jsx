@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { Activity, BarChart3, FlaskConical, Leaf, RefreshCcw, Send } from "lucide-react";
 import "./styles.css";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_URL = import.meta.env.VITE_API_URL || "https://soc-prediction-ml.onrender.com";
 
 const fallbackFeatures = [
   { name: "elevation_m", kind: "number", example: 620 },
