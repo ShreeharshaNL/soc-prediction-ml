@@ -14,7 +14,7 @@ app = FastAPI(
     version="1.0.0",
 )
 
-origins = [item.strip() for item in os.getenv("CORS_ORIGINS", "*").split(",") if item.strip()]
+origins = [item.strip() for item in os.getenv("CORS_ORIGINS", "https://soil-carbon-prediction.vercel.app").split(",") if item.strip()]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
